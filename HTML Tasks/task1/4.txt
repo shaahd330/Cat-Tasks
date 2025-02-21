@@ -1,0 +1,14 @@
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="webpage">
+    <meta name ="author" content="shahd">
+
+<!------------------------------------------------>
+    <!-- 
+    1-to make the webpage supporting English and Arabic languages .
+    2-how the webpage opens on different devices.
+    3-the description of the webpage.
+    4-the author \ developer.
+    
+    
+    -->

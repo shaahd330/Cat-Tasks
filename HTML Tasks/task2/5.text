@@ -1,0 +1,8 @@
+1- title : global
+2- href : not global
+3- src  : not
+4- hidden : global
+5- not
+6- calss : global
+7- id : global
+8- type : global
