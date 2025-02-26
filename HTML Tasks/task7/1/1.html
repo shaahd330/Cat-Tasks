@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Form</legend>
+        
+        <form action="1.html" method="get">
+        
+        <label for="text0"><p>User-Name</p></label>
+        <input type="text"  id="text0" required placeholder="user_221"  autofocus maxlength="20" minlength="5" >
+        <hr>
+        <label for="Email"><p>Email</p></label>
+        <input type="email"  id="Email" disabled value="o@o.com">
+        <hr>
+        <!-- <label for="t"><p>Token</p></label> -->
+        <input type="hidden"  id="t" value="b92f1fc2fce391ad7af633723afd3055">
+        <hr>
+        <h3>Select Your Programming Skills :</h3>
+        <input id="JS" type="checkbox" name="JS">
+        <label for="JS">JS</label>
+<br>
+        <input id="HTML" type="checkbox" name="HTML">
+        <label for="HTML">HTML</label>
+<br>
+        <input id="CSS" type="checkbox" name="CSS">
+        <label for="CSS">CSS</label>
+        <hr>
+        <div>
+<h3>Select a Job :</h3>
+<input type="radio" name="Project" id="pro" checked>
+<label for="pro">Project</label>
+<br>
+<input type="radio" name="Business Analyst" id="Business Analyst">
+<label for="Business Analyst">Business Analyst</label>
+<br>
+<input type="radio" name="Back-End Developer" id="Back-End Developer">
+<label for="Back-End Developer">Back-End Developer</label>
+<br>
+<input type="radio" name="Front-End Developer " id="Front-End Developer">
+<label for="Front-End Developer">Front-End Developer</label>
+<br>
+<input type="radio" name="Scrum Master" id="Scrum Master">
+<label for="Scrum Master">Scrum Master</label>
+<br>
+<input type="radio" name="Manager" id="Manager">
+<label for="Manager">Manager</label>
+        </div>
+        <hr>
+        <div>
+            <h3>Select from the below list:</h3>
+<select>
+    <!-- <input list="versions" name="versions">
+    <datalist id="versions"> -->
+        
+<optgroup label="PHP">
+
+    <option value="v5.0">v5.0</option>
+    <option value="v7.0">v7.0</option>
+    <option value="v8.0">v8.0</option>
+</optgroup>
+
+<optgroup label="Python" >
+    <option value="v2.0">v2.0</option>
+    <option value="v3.0">v3.0</option>
+    <option value="v3.9">v3.9</option>
+</optgroup>
+</datalist>
+
+</select>
+
+
+        </div>
+
+
+        <hr>
+        <div>
+            
+            <textarea  cols="50"rows="10" name="brief" placeholder="Write here why you want to learn programming">
+                Write here why you want to learn programming
+                
+            </textarea>
+        </div>
+        <hr>
+        <div>
+            <input type="submit" value="Send">
+            <input type="reset" value="Empty">
+        </div>
+      
+    </fieldset>
+    
+</body>
+</html>
