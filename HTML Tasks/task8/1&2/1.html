@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Data Form</legend>
+        <form action="test.php" method="get" target="_blank" novalidate>
+           <div>
+            <label for="Search"><p>Search</p></label>
+            <input autofocus list="search" type="search" id="Search" placeholder="Enter a Search Word" >
+            <datalist id="search">
+                <option value="JS"></option>
+                <option value="python"></option>
+                <option value="PHP"></option>
+            </datalist>
+           </div>
+
+<hr>
+           <div>
+            <label for="File"><p>Upload  a File</p></label>
+            <input type="file" id="File">
+           </div>
+<hr>
+           <div>
+            <label for="URL"><p>Enter a Link</p></label>
+            <input type="url" id="URL" required>
+
+
+           </div>   
+
+<hr>
+           <div>
+            <label for="Date"><p>Enter a Date</p></label>
+            <input type="date" id="Date" value="1982-10-25">
+           </div>
+<hr>
+           <div>
+            <label for="Month"><p>Choose a Month</p></label>
+            <input type="month" id="Month" value="1982-10">
+           </div>
+<hr>          
+           <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Empty">
+            
+           </div>
+
+
+
+
+
+
+        </form>
+    </fieldset>
+</body>
+</html>
