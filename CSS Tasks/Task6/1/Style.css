@@ -1,0 +1,16 @@
+div {
+    background-color: white;
+    border: solid 2px rgb(255, 0, 0);
+    margin: 20px;
+    width: 400px;
+    padding: 20px;
+}
+
+
+p {
+    background-color: #eee;
+    border: inherit;
+    text-align: center;
+    margin:inherit;
+    padding: inherit;
+}
