@@ -1,0 +1,21 @@
+div{
+    background-color: rgb(114, 7, 7);
+    margin: 10px;
+    color: white;
+    padding: 5px;
+    max-width: 400px;
+    
+    
+
+}
+
+.one ,.two ,.three
+{
+    width: fit-content;
+}
+
+.four {
+
+    height: 100px;
+    overflow: hidden;
+}
