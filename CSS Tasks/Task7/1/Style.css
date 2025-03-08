@@ -1,0 +1,46 @@
+.parent {
+    background-color: #eee;
+    text-align: center;
+    width: 800px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0;
+}
+
+
+.Full {
+    background-color: #bcbcbc;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.row {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+
+.one, .two, .three, .quarter {
+    background-color: #bcbcbc;
+    padding: 15px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.one { 
+    width: calc((800px - 30px) / 3); 
+} 
+.two { 
+    width: calc((800px - 15px) / 2); 
+} 
+.quarter {
+     width: calc((800px - 45px) / 4); 
+    } 
+
