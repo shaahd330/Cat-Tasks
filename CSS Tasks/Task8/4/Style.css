@@ -1,0 +1,39 @@
+.green {
+
+    color: white;
+    background-color: rgb(6, 101, 203);
+    
+    border: none;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px;
+}
+.Red {
+
+    color: white;
+    background-color: rgb(182, 22, 22);
+    border: none;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+table {
+    width: 700px;
+    margin: auto;
+    border-color:  rgb(255, 252, 252);
+}
+
+td {
+
+    text-align: center;
+    background-color: #dedddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+    padding: 20px ;
+    background-color: rgb(43, 41, 41);
+    color: aliceblue;
+}
+
