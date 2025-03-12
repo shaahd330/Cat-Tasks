@@ -1,0 +1,43 @@
+p {
+    background-color: #eee;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+   
+}
+
+
+.cont {
+    position: relative;
+    
+}
+
+.Three
+ {
+    position: absolute;
+    bottom: -150px;
+    right: 111px;
+    
+}
+
+.Two {
+    position: absolute;
+    bottom: -75px;
+    right: 111px;
+}
+
+/* .cont ::before {
+    content: attr(data-person);
+    width: 70px;
+    height: 10px;
+    background-color: #a29e9e;
+    padding: 20px;
+    position: absolute;
+    left: -10px;
+    text-align: center;
+} */
+
+
+
+
