@@ -1,0 +1,29 @@
+div {
+    width: 300px;
+    height: 200px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(14, 115, 246);
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.pink {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(216, 58, 111);
+    transform: translate(0px,-207px) rotate(151deg);
+    position: relative;
+    z-index: -1;
+}
+.blue {
+    background-color:  rgb(14, 115, 246);
+    transform: translate(2px,-394px) rotate(165deg);
+    position: relative;
+    z-index: 0;
+}
