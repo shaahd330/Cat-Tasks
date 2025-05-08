@@ -1,0 +1,11 @@
+div:nth-of-type(2)
+{
+    color: red;
+}
+div:nth-of-type(3)
+{
+    color: red;
+}
+div>p {
+    color: red;
+}

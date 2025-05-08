@@ -1,0 +1,12 @@
+div[title="Elzero"] {
+    color: red;
+  }
+
+  div.no-need {
+    color: black;
+  }
+
+
+  div.no-need [title="Elzero"]{
+    color: black;
+ }

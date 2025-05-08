@@ -1,0 +1,19 @@
+div[title="Elzero"] {
+    color: red;
+  }
+div[title="Hello"] {
+    color: red;
+  }
+div[title="HTML"] {
+    color: red;
+  }
+
+ div.no-need {
+    color: black;
+ }
+
+
+ div.parent [title="Elzero"]{
+    color: black;
+ }
+  

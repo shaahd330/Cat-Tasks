@@ -1,0 +1,29 @@
+.spin {
+    width: 100px;
+    height: 100px;
+    background-color: #e8e3e3;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-right: -50px;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+    border-radius: 50%;
+    border: 10px solid rgb(0, 0, 0);
+    /* transition: transform 0.3s; */
+    /* transform: rotate(360deg);  */
+    border-left-color: transparent;
+
+}
+
+.spin:hover {
+    animation-play-state: paused;
+}
+
+@keyframes spin {
+    from {transform: rotate(0deg);}
+    to { transform: rotate(360deg);}
+}
